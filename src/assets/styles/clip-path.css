@@ -1,0 +1,97 @@
+.octagon {
+  clip-path: polygon(5px 0,
+      /* atas kiri masuk 5px dari kiri */
+      calc(100% - 5px) 0,
+      /* atas kanan mundur 5px dari kanan */
+      100% 5px,
+      /* kanan atas turun 5px */
+      100% calc(100% - 5px),
+      /* kanan bawah naik 5px dari bawah */
+      calc(100% - 5px) 100%,
+      /* bawah kanan mundur 5px dari kanan */
+      5px 100%,
+      /* bawah kiri maju 5px dari kiri */
+      0 calc(100% - 5px),
+      /* kiri bawah naik 5px */
+      0 5px
+      /* kiri atas turun 5px */
+    );
+}
+
+.left-trapezoid {
+  clip-path: polygon(0 0,
+      /* atas kiri masuk 5px dari kiri */
+      calc(100% - 5px) 0,
+      /* atas kanan mundur 5px dari kanan */
+      100% 5px,
+      /* kanan atas turun 5px */
+      100% calc(100% - 5px),
+      /* kanan bawah naik 5px dari bawah */
+      calc(100% - 5px) 100%,
+      /* bawah kanan mundur 5px dari kanan */
+      0px 100%,
+      /* bawah kiri maju 5px dari kiri */
+      0 calc(100% - 5px),
+      /* kiri bawah naik 5px */
+      0 0px
+      /* kiri atas turun 5px */
+    );
+}
+
+.right-trapezoid {
+  clip-path: polygon(5px 0,
+      /* atas kiri masuk 5px dari kiri */
+      calc(100% - 5px) 0,
+      /* atas kanan mundur 5px dari kanan */
+      100% 0px,
+      /* kanan atas turun 5px */
+      100% calc(100% - 5px),
+      /* kanan bawah naik 5px dari bawah */
+      100% 100%,
+      /* bawah kanan mundur 5px dari kanan */
+      5px 100%,
+      /* bawah kiri maju 5px dari kiri */
+      0 calc(100% - 5px),
+      /* kiri bawah naik 5px */
+      0 5px
+      /* kiri atas turun 5px */
+    );
+}
+
+.elbow-trapezoid {
+  clip-path: polygon(0 0,
+      /* atas kiri masuk 5px dari kiri */
+      calc(100% - 5px) 0,
+      /* atas kanan mundur 5px dari kanan */
+      100% 5px,
+      /* kanan atas turun 5px */
+      100% 100%,
+      /* kanan bawah naik 5px dari bawah */
+      calc(100% - 5px) 100%,
+      /* bawah kanan mundur 5px dari kanan */
+      0px 100%,
+      /* bawah kiri maju 5px dari kiri */
+      0 calc(100% - 5px),
+      /* kiri bawah naik 5px */
+      0 0px
+      /* kiri atas turun 5px */
+    );
+}
+/* // import {
+//   HandFist,
+//   Map,
+//   Sword,
+//   Joystick,
+//   BowArrow,
+//   Ghost,
+//   Club,
+//   Car,
+//   Dumbbell,
+//   PartyPopper,
+//   Music,
+//   TentTree,
+//   LocateFixed,
+//   Box,
+//   Lightbulb,
+//   BrickWall,
+// } from 'lucide-vue-next' */
